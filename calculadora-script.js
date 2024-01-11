@@ -1,6 +1,6 @@
-function consoleOi() {
-	console.log("Oi")
-}
+// function consoleOi() {
+// 	console.log("Oi")
+// }
 function clickButton(valor) {
 	if (isNaN(valor)) {
 		console.log("O botao pressionado foi: " + valor);
@@ -27,7 +27,7 @@ function clickButton(valor) {
 			case '/':
 				resultado.innerHTML += valor;
 				break;
-			case 'X':
+			case '*':
 				resultado.innerHTML += '*';
 				break;
 			case '-':
